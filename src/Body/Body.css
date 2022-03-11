@@ -1,0 +1,61 @@
+* {
+  background-color: rgb(183, 255, 205);
+}
+
+.start {
+  height: 50px;
+  width: 100px;
+  cursor: pointer;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: 3px;
+  border-style: double;
+}
+.start:hover {
+  background-color: green;
+  color: aliceblue;
+  font-weight: 800;
+}
+
+.save {
+  height: 50px;
+  width: 100px;
+  cursor: pointer;
+  border-style: double;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.save:hover {
+  background-color: green;
+  color: aliceblue;
+  font-weight: 800;
+}
+
+.note {
+  align-items: center;
+  align-self: center;
+  font-size: smaller;
+}
+
+.clear {
+  height: 50px;
+  width: 100px;
+  cursor: pointer;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: 3px;
+  border-style: double;
+}
+.clear:hover {
+  background-color: green;
+  color: aliceblue;
+  font-weight: 800;
+}
+/* desktop
+@media  screen and (min-width:1024px) {
+    
+}
+
+/* mobile */
+/* @media screen and (max-width:767px) { */
+
+/* } */

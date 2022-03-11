@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(2, 121, 41);
+  color: rgb(255, 255, 255);
+  align-items: center;
+}
+.rounit {
+  background-color: rgb(2, 121, 41);
+}
+.navbarText {
+  margin-right: 8px;
+  cursor: pointer;
+  background-color: rgb(2, 121, 41);
+}
+
+.navbarIcon {
+  margin-left: 8px;
+  background-color: rgb(2, 121, 41);
+}
+
+.navbarButton {
+  height: 40px;
+  width: 80px;
+  color: aliceblue;
+  background-color: rgb(7, 48, 136);
+  border: 0px;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.navbarButton:hover {
+  color: antiquewhite;
+  background-color: rgb(2, 121, 41);
+  border-radius: 2px black;
+  font-weight: 800;
+}
