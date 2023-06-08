@@ -1,5 +1,7 @@
-#A VOICE TO TEXT CONVERTER .
-##Tech used -> ReactJS 
-![image](https://user-images.githubusercontent.com/71965521/157926080-44208bd0-b1fd-4eee-bbc6-23bd29854042.png)
+# VOICI- A VOICE TO TEXT CONVERTER .
+## Tech used -> ReactJS 
+
+![image](https://github.com/rounit08/voici/assets/71965521/29103d10-9427-4c6d-9df3-bc791d00055b)
+
 
 ###It also have option to save notes.
