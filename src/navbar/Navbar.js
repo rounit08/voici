@@ -1,12 +1,14 @@
 import React from "react";
 import MicOutlinedIcon from "@mui/icons-material/MicOutlined";
 import "./Navbar.css";
+import mic from "../images/navbarImage-removebg-preview.png";
 
 function Navbar() {
   return (
     <div className="navbar">
-      <MicOutlinedIcon className="navbarIcon" />
-      <h5 className="rounit">by Rounit Sinha</h5>
+      <div class="wave"></div>
+
+      <img className="navbarImage" src={mic} />
       <h1 className="navbarText">Voici.inc</h1>
     </div>
   );

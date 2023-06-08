@@ -1,37 +1,99 @@
-.navbar {
+/* .navbar {
   display: flex;
-  justify-content: space-between;
-  background-color: rgb(2, 121, 41);
+  background-color: rgb(5, 1, 32);
   color: rgb(255, 255, 255);
   align-items: center;
-}
-.rounit {
-  background-color: rgb(2, 121, 41);
-}
-.navbarText {
-  margin-right: 8px;
-  cursor: pointer;
-  background-color: rgb(2, 121, 41);
+  box-shadow: 2px 2px 20px white;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap");
+
+.navbar {
+  background-color: #6225e6;
+  box-shadow: 6px 3px white;
+  border-radius: 50px;
+  position: relative;
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-top: 20px;
 }
 
-.navbarIcon {
-  margin-left: 8px;
-  background-color: rgb(2, 121, 41);
-}
-
-.navbarButton {
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 50px;
+  width: 100%;
   height: 40px;
-  width: 80px;
-  color: aliceblue;
-  background-color: rgb(7, 48, 136);
-  border: 0px;
-  cursor: pointer;
-  font-weight: 400;
+  /* background: url("./wave-pattern.svg") repeat-x; */
 }
 
-.navbarButton:hover {
-  color: antiquewhite;
-  background-color: rgb(2, 121, 41);
-  border-radius: 2px black;
-  font-weight: 800;
+/* Additional styles for the navbar */
+.navbar {
+  height: 60px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.navbarText {
+  margin-right: 10px;
+  cursor: pointer;
+  z-index: 1;
+  color: white;
+  font-family: "Rubik Puddles", cursive;
+}
+
+.navbarImage {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  /* background-color: rgb(5, 1, 32); */
+}
+
+@media screen and (min-width: 320px) {
+  .navbar {
+    margin-left: 25px;
+    margin-right: 20px;
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .navbar {
+    margin-left: 10px;
+    width: 400px;
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .navbar {
+    margin-left: 35px;
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 801px) {
+  .navbar {
+    margin-left: 25px;
+    width: 600px;
+
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .navbar {
+    margin-left: 20px;
+    width: 770px;
+
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .navbar {
+    margin-left: 300px;
+    width: 1205px;
+    margin-right: 20px;
+  }
 }

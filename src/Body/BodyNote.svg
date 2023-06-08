@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="300" viewBox="0 0 200 300">
+  <defs>
+    <style>
+      .banner {
+        fill: #ffdd57;
+      }
+      .rope {
+        fill: #8a8a8a;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <path class="banner" d="M0,0L200,0L180,200L0,200Z"/>
+      <path class="rope" d="M140,0L140,200"/>
+    </g>
+  </g>
+</svg>
